@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Gamalliel Sharon
+2. Email: sharongamalliel@gmail.com
+3. Sistem Operasi yang digunakan: Windows
+4. Akun Gitlab: @Gamalliel19
+5. Akun Telegram: gmllshrn
