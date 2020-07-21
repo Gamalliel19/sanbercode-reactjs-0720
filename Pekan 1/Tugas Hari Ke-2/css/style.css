@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+body{
+    background-image: url("../img/pattern.jpg");
+}
+nav ul{
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 0 20px;
+    list-style: none;
+}
+section{
+    width: 90%;
+    margin: 80px auto 0;
+    background-color: #ffffff;
+    padding: 20px;
+}
+section h1{
+    text-align: center;
+}
+section div{
+    margin: 50px 0;
+    padding-bottom: 15px;
+}
+#article-list div{
+    border-bottom: 1px solid #999595;
+}
+footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* About Styke */
+#about{
+    width: 60%;
+    margin: 0 auto;
+}
+#about span{
+    font-weight: bold;
+}
+.title-about{
+    text-align: center;
+    margin: 20px;
+}
+.card-about{
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #999595;
+}
+
+/* Contact Style */
+#contact{
+    width: 50%;
+    margin: 0 auto;
+}
+#contact h1{
+    text-align: center;
+    margin: 20px 0;
+}
+table tr td{
+    padding: 10px 50px 0 0;
+}
+.card{
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #999595;
+}
+textarea{
+    width: 100%;
+}
+button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+    #contact{
+        width:80%;
+    }
+    #about{
+        width: 80%;
+    }
+    #about h1{
+        font-size: 25px;
+    }
+  }
+
+  
