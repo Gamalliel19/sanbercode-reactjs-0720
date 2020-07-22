@@ -4,7 +4,13 @@ var kataKedua = "senang";
 var kataKetiga = "belajar";
 var kataKeempat = "javascript";
 
-var GabungKata = kataPertama + " " + kataKedua + " " + kataKetiga + " " + kataKeempat.toUpperCase();
+// untuk mengambil karakter pertama ([0]) dan di jadikan huruf kapital
+var caps = kataKedua[0].toUpperCase();
+// Untuk Mengambil karakter "enang"
+var sisa = kataKedua.slice(1); 
+var KataKedua = caps + sisa;
+
+var GabungKata = kataPertama + " " + KataKedua + " " + kataKetiga + " " + kataKeempat.toUpperCase();
 console.log(GabungKata);
 
 
