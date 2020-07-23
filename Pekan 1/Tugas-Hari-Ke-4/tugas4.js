@@ -1,6 +1,6 @@
 // Soal 1
 console.log("================");
-console.log('===  SOAL 3  ===');
+console.log('===  SOAL 1  ===');
 console.log("================");
 console.log("===============");
 console.log('LOOPING PERTAMA');
@@ -42,26 +42,15 @@ for(var i=1; i<=20; i++){
 console.log("================");
 console.log('===  SOAL 3  ===');
 console.log("================");
-for (var i=1; i<=7; i++){
-var x = "";
-if(i==1){
-    x = "#";
-}else if(i==2){
-    x = "##";
-}else if(i==3){
-    x = "###";
-}else if(i==4){
-    x = "####";
-}else if(i==5){
-    x = "#####";
-}else if(i==6){
-    x = "######";
-}else if(i==7){
-    x = "#######"
-}
-console.log(x)
-}
 
+
+for(var i = 1; i <= 7; i++) {
+    var isi = '';
+    for(var j = 1; j<= i; j++) {
+        isi += "#";
+    }
+    console.log(isi)
+}
 
 
 
