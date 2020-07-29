@@ -2,11 +2,11 @@
 
 console.log('---Soal 1---')
 //Rumus luas lingkaran
-let pi = 3.14;
+const phi = 3.14;
 let r = 14;
 
 const luas = () =>{
-    const luas = (pi * r)^2;
+    const luas = (phi * r)^2;
     return `Luas lingkaran = ${luas} cm`
 }
 console.log(luas())
@@ -14,11 +14,11 @@ console.log(luas())
 
 
 // rumus keliling lingkaran
-let piw = 22/7;
+let phiw = 22/7;
 let ar = 14;
 
 const keliling = ()=>{
-    const luasLingkaran = 2*piw*ar;
+    const luasLingkaran = 2*phiw*ar;
     return `Keliling lingkaran = ${luasLingkaran} cm`;
 }
 
