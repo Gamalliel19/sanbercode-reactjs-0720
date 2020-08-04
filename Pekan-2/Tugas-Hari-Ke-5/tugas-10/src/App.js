@@ -11,7 +11,7 @@ function App() {
         <tbody>
           <tr>
             <td scope="row"></td>
-            <td>Nama Pelanggan</td>
+            <td>Nama Pelangggan</td>
             <td> <input></input></td>
           </tr>
           <tr>
